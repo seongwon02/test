@@ -1,0 +1,20 @@
+1. 터미널을 열고 git init 입력
+    >> git이 파일생성, 코드작성을 추적
+2. 코드 작성 후 파일현재 상태를 기록하고 싶을 때 터미널에
+    git add 파일명
+    git commit -m '아무메세지' //메모할 때 사용
+3. staging area: commit 하기 전에 commit 할 파일들을 골라놓는 곳
+                 git add로 staging 가능
+   repository: commit된 파일들을모아놓는 곳
+4. 다른 명령어들
+    -git add 파일명 1, 파일명 2
+     >> 여러 파일을 동시에 스테이징 가능
+    -git add .
+     >> 작업폴더 란의 모든 파일들을 staging할 때 사용
+    -git status
+     >> 지금 변경된 파일, staging된 파일들을 알려줌
+    -git restore --staged 파일명
+     >> staging된 파일을 취소할 때 사용
+    -git log --all --oneline
+     >> commit 기록을 한눈에 볼 때 사용
+5. 간단한 기능 만들었을 때마다 commit하기
