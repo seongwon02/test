@@ -18,3 +18,17 @@
     -git log --all --oneline
      >> commit 기록을 한눈에 볼 때 사용
 5. 간단한 기능 만들었을 때마다 commit하기.
+6. 최근 commit한 파일과 현재파일 차이점을 볼려면
+    git diff
+    >> Vim 에디터가 오픈되기 때문에 스크롤은 j, k / 종료는 q 연타
+    git difftool  << 좀 더 유용함
+    >> h j k l키가 방향키, :q 또는 :qa가 종료
+    git difftool 커밋아이디  
+    >> 최근 commit이 아닌 과거의 commit과 현재 파일을 비교할 때 사용
+       커밋아이디는 git log --oneline 입력할 때 보이는 노란글자
+    git difftool 커밋아이디1 커밋아이디2
+    >> 특정커밋vs특정커밋 비교 가능
+7. git diff 말고 다른 부가기능 쓰는 법
+   VS Code 에디터의 좌측 Extension에서 Git 관련 부가기능 설치
+
+
