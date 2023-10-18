@@ -31,5 +31,11 @@
 7. git diff 말고 다른 부가기능 쓰는 법
    VS Code 에디터의 좌측 Extension에서 Git 관련 부가기능 설치
 8. 프로젝트의 복사본을 만들어 거기에 먼저 개발할려면 
-   git branch 브랜치 이름
+   git branch 브랜치 이름 << 프로젝트 사본 생성
+   git switch 브랜치 이름 << 만들어놓은 브랜티로 이동
+   git branch main << 메인 브랜치로 이동
+   브랜치 코드를 메인에 합치고 있을 땐 merge 사용
+   메인 브랜치로 이동 후
+   git merge 브랜치 이름
+
 
