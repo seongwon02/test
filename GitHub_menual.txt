@@ -5,3 +5,8 @@ git이 파일을 저장하는 장소를 respository라고 한다.
 1. 작업폴더 하나 생생 후 git init 작성
 2. git branch -M main 작성 (github는 기본 브랜치 이름을 master가 아닌 main으로 강요함.)
 3. 파일 커밋 한 후 git push -u 원격저장소주소 올릴로컬브랜치명
+git에서 변수문법 사용가능
+    git remote add 변수명 원격저장소주소
+    또는
+    git push 할 때 -u 추가하면 주소 기억하라는 뜻
+    따라서 got push만 해도 깃허브에 저장됨
