@@ -39,5 +39,15 @@
    git merge 브랜치 이름
    *여러 개발자들과 함께 협업 시에 유용
     >>brach로 프로젝트 사본 하나 만들어서 먼저 개발하고 잘되면 main에 합치는 형식
-    
-
+9. 파일 복구하는 법
+   git restore 파일명 << 최근 commit한 파일로 되돌아감
+   git restore --source 커밋 아이디 파일명 << 특정 파일로 되돌아감
+   git restore --staged 파일명 << staging 취소
+   git revert 커밋 아이디 << commit 취소하는 법
+   git revert 커밋 아이디, 커밋아이디 << commit 여러 개 취소가능
+   git revert HEAD << 최근 commit 취소가능
+   *merge commit도 취소가능
+   
+   git reset --hard 커밋아이디 << 과거로 모든걸 되돌리기(협엽시엔 사용금지)
+   git reset --soft 커밋아이디 << 리셋인데 변동사항 지우지 말고 staging 하기
+   git reset --mixed 커밋아이디 << 리셋인데 변동사함 지우지 말고 unstage 해놓기
