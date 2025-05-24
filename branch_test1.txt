@@ -1,7 +1,3 @@
 브랜치 생성해서 실습하는 중
 
-<<<<<<< HEAD
-현재 branch1
-=======
-: branch2
->>>>>>> branch2
+현재 main
